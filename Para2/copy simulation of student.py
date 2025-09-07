@@ -35,8 +35,8 @@ class Student:
         print(f"happiness = {self.happiness}")
         print(f"progress = {round(self.progress, 2)}")
     def life(self, day):
-        text_day = f"Day{day} of {self.name} life"
-        print(f"{text_day:=^30}")
+        text_day = f"Day {day} of {self.name} life"
+        print(f"{text_day:=^40}")
         cube = randint(1,4)
         if cube == 1:
             self.to_sleep()
@@ -49,7 +49,7 @@ class Student:
         self.end_of_day()
         self.is_alive()
 nickolas = Student(name= "Nick")
-for day in range(365):
+for day in range(1,365):
     if nickolas.alive == False:
         break
     nickolas.life(day)
