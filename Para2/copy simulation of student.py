@@ -92,3 +92,5 @@ for day in range(366):
     nickolas.targets(day)
 
 
+
+
