@@ -8,3 +8,4 @@ except NameError:
 except ZeroDivisionError:
     print("Can`t divide by zero")
 print("code after capsule")
+

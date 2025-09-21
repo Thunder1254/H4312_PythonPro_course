@@ -10,3 +10,5 @@ except NameError as error:
 else:
     print("No problem")
 print("code after capsule")
+
+

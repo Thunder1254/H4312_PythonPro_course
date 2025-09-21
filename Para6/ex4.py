@@ -11,3 +11,7 @@ def check_material(now_material,min_material, ):
 material_user = float(input("Enter material:    "))
 check_material(material_user, 300)
 
+
+
+
+
