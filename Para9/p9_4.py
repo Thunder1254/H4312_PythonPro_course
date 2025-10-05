@@ -12,3 +12,6 @@ for parse_elem_1 in response_parse:
                 res_parse_list.append(parse_elem_2)
 
 print(f"Bitcoin: {res_parse_list[0]}")
+
+
+

@@ -27,3 +27,5 @@ for i in range(len(res_parse_list_2)):
 print(res_parse_dict)
 print("XRP = ", res_parse_dict["XRP"])
 print(f"Bitcoin: {res_parse_list[0]}")
+
+
