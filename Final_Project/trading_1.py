@@ -44,3 +44,8 @@ plt.ylabel("Price (USDT)")
 plt.legend()
 plt.grid(True)
 plt.show()
+
+
+
+
+
