@@ -1,10 +1,5 @@
-# Labyrinth Solver using ONLY front distance sensor
-# Works in VEXcode VR Python
-# Author: ChatGPT
+import vex
 
-from vex import *
-
-# Brain and drivetrain setup (default VR Robot)
 brain = Brain()
 drivetrain = Drivetrain()
 
